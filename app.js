@@ -1,6 +1,6 @@
-let screen = document.getElementById("screen")
+let screen = document.querySelector(".screen")
 
-document.getElementById('calculation').addEventListener('click',()=>  
+document.querySelector(".equalOperator").addEventListener('click',()=>  
 screen.value = Function('return (' + screen.value + ')')())
 
 document.getElementById('clearAll').addEventListener('click',()=>  screen.value="")
