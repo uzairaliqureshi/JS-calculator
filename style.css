@@ -17,6 +17,7 @@ body {
   padding-bottom: 15px;
   border-radius: 7px;
   background-color: #181a1b;
+  box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.61);
 }
 
 .btnRow {
@@ -61,7 +62,7 @@ button:hover {
 
 .bodmas {
   background-color: #2b2f31;
-  color: #fff;
+  color: #42f477;
 }
 
 .equalOperator {
