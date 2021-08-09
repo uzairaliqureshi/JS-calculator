@@ -7,9 +7,10 @@ for (let i = 0; i < numberOfButtons; i++) {
   });
 }
 
-let numberOfBtn = document.querySelectorAll(".one").length;
+// let opText = [,"+","/","*"]
+let numberOfBtn = document.querySelectorAll(".operator").length;
 for (let i = 0; i < numberOfBtn; i++) {
-  document.querySelectorAll(".one")[i].addEventListener("click", function () {
+  document.querySelectorAll(".operator")[i].addEventListener("click", function () {
     if (this.value !== screen.value.slice(-1)) screen.value += this.value
   });
 }
